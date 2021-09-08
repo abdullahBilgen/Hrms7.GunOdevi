@@ -23,7 +23,7 @@ public class PersonnelManager implements PersonnelService {
 	
 	@Override
 	public List<Personnel> getAll() {
-		return null;
+		return this.personnelDao.findAll();
 	}
 
 }

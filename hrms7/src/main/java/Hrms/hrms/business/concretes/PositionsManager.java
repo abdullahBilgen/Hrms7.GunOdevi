@@ -33,8 +33,4 @@ public class PositionsManager implements PositionsService{
 	public String addPosition(Positions positions) {
 		return this.addPosition(positions);
 	}
-
-
-	
-
 }
